@@ -1,3 +1,4 @@
+```yaml
 rbac:
     defaultPolicy: ""
     policy: |-
@@ -5,3 +6,4 @@ rbac:
       g, cluster-admins, role:admin
       g, system:authenticated:oauth, role:admin
     scopes: '[groups]'
+```
